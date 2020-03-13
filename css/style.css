@@ -1,0 +1,84 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* start bagian navbar */
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(250, 230, 46);
+}
+
+.navbar-logo{
+    margin-left: 10px;
+}
+
+.navbar-links{
+    display: flex;
+    margin-right: 30px;
+}
+
+.navbar-link {
+    list-style: none;
+    margin: 10px;
+}
+
+.navbar-link a{
+    text-decoration: none;
+    color:black;
+	margin: 5px;
+	font-weight: bold;
+}
+
+
+/* end bagian navbar */
+
+/* bagian isi */
+
+.luar{
+    display: flex;
+    flex-direction: row;
+}
+
+.latarBelakang{
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(250, 230, 46);
+    margin : 0 auto;
+}
+
+.sepasi{
+    height: 10vh;
+}
+
+.isi { 
+    padding: 10vw;
+    background-image: url('../assets/logo_3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60vh;
+    height: 300px;
+    text-align : left;
+    color: white;    
+}
+
+.isi h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
+/* text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000; */
+
+/* background-color: aquamarine;
+    padding: 8px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; */
